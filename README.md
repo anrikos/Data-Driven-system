@@ -30,15 +30,16 @@
 | :--- | :--- |
 | **Язык разработки** | ![Python](https://shields.io) |
 | **Big Data & Анализ** | ![Pandas](https://shields.io) ![Apache Hadoop](https://shields.io) ![Apache Spark](https://shields.io) |
-| **Хранилища данных** | `DataLake` `DataWarehouses` `Statistica` |
+| **Хранилища данных** | `DataLake` · `DataWarehouses` · `Statistica` |
 | **Интерфейс & BI** | ![PyQt](https://shields.io) `Almaz BI` |
-| **Визуализация** | `Matplotlib` `Dash` `Transcribe` |
+| **Визуализация** | `Matplotlib` · `Dash` · `Transcribe` |
 
 ---
 
 ## 🛠️ Архитектура: 10-этапный процесс обработки
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'lineColor': '#F4F4F4', 'edgeLabelBackground':'#222' }}}%%
 graph TD
     A[1. Ввод: Transcribe] --> B[2. Маркеры: Дескрипторы]
     B --> C[3. Параллелизация: PyQt]
@@ -50,13 +51,16 @@ graph TD
     H --> I[9. Агрегация: Matplotlib]
     I --> J[10. Вывод: Синтез речи]
     
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style F fill:#bbf,stroke:#333,stroke-width:2px
-    style J fill:#bfb,stroke:#333,stroke-width:2px
+    %% Стили для высокой контрастности на темном фоне %%
+    style A fill:#4a154b,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#0e4b50,stroke:#fff,stroke-width:2px,color:#fff
+    style J fill:#1b4d3e,stroke:#fff,stroke-width:2px,color:#fff
+    
+    classDef default fill:#2d3748,stroke:#718096,stroke-width:1px,color:#e2e8f0;
 ```
 
 <details>
-<summary>🔍 Развернуть подробное описание всех 10 этапов</summary>
+<summary><b>🔍 Развернуть подробное описание всех 10 этапов</b></summary>
 
 1. **Ввод:** Транскрибация голоса руководителя в текст (`Transcribe`).
 2. **Маркеры:** Выделение дескрипторов контекстным анализатором.
@@ -75,23 +79,24 @@ graph TD
 ## ⚡ Быстрый старт (Quick Start)
 
 ### Требования
-* Python 3.9 или выше
-* Установленный кластер Hadoop/Spark (для этапов обработки Big Data)
+* **Python 3.9+**
+* Кластер **Hadoop / Spark** (для инференса Big Data)
 
 ### Установка
 
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com
+   ```
+2. Перейдите в директорию:
+   ```bash
    cd your-repo
    ```
-
-2. Установите зависимости:
+3. Установите зависимости:
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Запустите главный модуль системы:
+4. Запустите главный модуль:
    ```bash
    python main.py
    ```
