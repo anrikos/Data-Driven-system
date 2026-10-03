@@ -108,7 +108,7 @@ graph LR
 
 ## 📝 Лицензия
 
-Проект распространяется под лицензией [MIT](LICENSE).
+Проект распространяется под лицензией [MIT](LICENSE)
 
 ## 📂 Materials
 * 📄 [Download Full REDUCING_THE_OPERATION_TO_I_EQUIVALENT (PDF)](assets/REDUCING_THE_OPERATION_TO_I_EQUIVALENT.pdf?raw=true)
