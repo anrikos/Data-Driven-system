@@ -22,13 +22,14 @@ The framework focuses on automating market-wide product data collection and anal
 
 ## 🚀 Tech Stack
 
-| Category | Technologies |
+| Category | Technologies & Frameworks |
 | :--- | :--- |
-| **Core Language** | ![Python](https://shields.io) |
-| **Big Data & Analytics** | ![Pandas](https://shields.io) ![Apache Hadoop](https://shields.io) ![Apache Spark](https://shields.io) |
-| **Data Storage** | `DataLake` · `DataWarehouses` · `Statistica` |
-| **UI & BI Tools** | ![PyQt](https://shields.io) `Almaz BI` |
-| **Visualization** | `Matplotlib` · `Dash` · `Transcribe` |
+| **🟢 Core Language** | `Python 3.9+` |
+| **🔵 Big Data & Analytics** | `Pandas` · `Apache Hadoop` · `Apache Spark` |
+| **🟤 Data Storage** | `DataLake` · `DataWarehouses` · `Statistica` |
+| **🟣 UI & BI Tools** | `PyQt` · `Almaz BI` |
+| **🟡 Visualization** | `Matplotlib` · `Dash` · `Transcribe` |
+
 
 ---
 
