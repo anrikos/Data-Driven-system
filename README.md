@@ -110,3 +110,6 @@ graph LR
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## 📂 Materials
+* 📄 [Download Full REDUCING_THE_OPERATION_TO_I_EQUIVALENT (PDF)](assets/REDUCING_THE_OPERATION_TO_I_EQUIVALENT.pdf?raw=true)
