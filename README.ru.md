@@ -1,5 +1,6 @@
 # 🌐 Оптимизация поиска информации в киберфизических системах (Part 1)
 
+[Read in English](README.md)
 <p align="center">
   <img src="https://shields.io" alt="License">
   <img src="https://shields.io" alt="Stars">
