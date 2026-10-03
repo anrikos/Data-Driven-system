@@ -4,7 +4,7 @@
 
 ---
 <p align="center">
-  <img src="assets/images.jfif" alt="DDM" width="400">
+  <img src="assets/images.jfif" alt="DDM" width="500">
 </p>
 [Читать на английском языке](README.md)
 ## 🎯 О проекте
