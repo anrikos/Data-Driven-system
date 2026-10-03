@@ -1,5 +1,6 @@
 # 🌐 Information Search Optimization in Cyber-Physical Systems (Part 1)
 
+[Читать на русском языке](README.ru.md)
 <p align="center">
   <img src="https://shields.io" alt="License">
   <img src="https://shields.io" alt="Stars">
