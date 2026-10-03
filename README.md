@@ -14,6 +14,10 @@
 
 The framework focuses on automating market-wide product data collection and analysis while ensuring seamless marker preservation across the entire data track.
 
+<p align="center">
+  <img src="assets/data-analysis-in-marketing.webp" alt="DA" width="400">
+</p>
+
 ## ✨ Features
 
 * **🔄 Dual-Loop Control:** Ensures precision by continuously benchmarking the input query (forward loop) against the output response (feedback loop).
