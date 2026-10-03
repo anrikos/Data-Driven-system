@@ -2,9 +2,12 @@
 
 **[ 📑 License: MIT ]** · **[ ⭐ Stars: Repo Stars ]** · **[ 🐍 Python: 3.9+ ]** · **[ 🛠️ Status: Active ]**
 
-
+<p align="center">
+  <img src="assets/images.jfif" alt="DDM" width="600">
+</p>
 ---
 [Читать на русском языке](README.ru.md)
+
 ## 🎯 About the Project
 
 **This project implements a Data-Driven Method (DDM)** to address Big Data challenges within distributed information networks by reducing the processing workflow to its informational equivalent (**I-equivalent**).
