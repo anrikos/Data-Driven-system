@@ -41,23 +41,23 @@ The framework focuses on automating market-wide product data collection and anal
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'lineColor': '#F4F4F4', 'edgeLabelBackground':'#222' }}}%%
-graph TD
-    A[1. Input: Transcribe] --> B[2. Markers: Descriptors]
-    B --> C[3. Parallelization: PyQt]
-    C --> D[4. SEO Generation: URL]
-    D --> E[5. Sources: Ranking]
-    E --> F[6. Collection: DataLake]
-    F --> G[7. Engineering: Metatags]
-    G --> H[8. Validation: Graph]
-    H --> I[9. Aggregation: Matplotlib]
-    I --> J[10. Output: Speech Synthesis]
+graph LR
+    %% Row 1
+    A[1. Input] --> B[2. Markers] --> C[3. Parallel] --> D[4. SEO Gen] --> E[5. Sources]
     
-    %% High-contrast styles for dark theme layout %%
+    %% Compact Connection
+    E --> F[6. Collect]
+    
+    %% Row 2
+    F --> G[7. Engineer] --> H[8. Validate] --> I[9. Aggregate] --> J[10. Output]
+
+    %% High-contrast highlights
     style A fill:#4a154b,stroke:#fff,stroke-width:2px,color:#fff
     style F fill:#0e4b50,stroke:#fff,stroke-width:2px,color:#fff
     style J fill:#1b4d3e,stroke:#fff,stroke-width:2px,color:#fff
     
     classDef default fill:#2d3748,stroke:#718096,stroke-width:1px,color:#e2e8f0;
+
 ```
 
 <details>
