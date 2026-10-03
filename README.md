@@ -1,15 +1,10 @@
 # 🌐 Information Search Optimization in Cyber-Physical Systems (Part 1)
 
-[Читать на русском языке](README.ru.md)
-<p align="center">
-  <img src="https://shields.io" alt="License">
-  <img src="https://shields.io" alt="Stars">
-  <img src="https://shields.io" alt="Issues">
-  <img src="https://shields.io" alt="Python">
-</p>
+**[ 📑 License: MIT ]** · **[ ⭐ Stars: Repo Stars ]** · **[ 🐍 Python: 3.9+ ]** · **[ 🛠️ Status: Active ]**
+
 
 ---
-
+[Читать на русском языке](README.ru.md)
 ## 🎯 About the Project
 
 **This project implements a Data-Driven Method (DDM)** to address Big Data challenges within distributed information networks by reducing the processing workflow to its informational equivalent (**I-equivalent**).
