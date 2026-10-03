@@ -1,12 +1,6 @@
 # 🌐 Оптимизация поиска информации в киберфизических системах (Part 1)
 
-[Read in English](README.md)
-<p align="center">
-  <img src="https://shields.io" alt="License">
-  <img src="https://shields.io" alt="Stars">
-  <img src="https://shields.io" alt="Issues">
-  <img src="https://shields.io" alt="Python">
-</p>
+**[ 📑 Лицензия: MIT ]** · **[ ⭐ Звезды: Repo Stars ]** · **[ 🐍 Python: 3.9+ ]** · **[ 🛠️ Статус: Активен ]**
 
 ---
 
@@ -27,13 +21,13 @@
 
 ## 🚀 Стек технологий (Tech Stack)
 
-| Категория | Технологии |
+| Категория | Технологии и фреймворки |
 | :--- | :--- |
-| **Язык разработки** | ![Python](https://shields.io) |
-| **Big Data & Анализ** | ![Pandas](https://shields.io) ![Apache Hadoop](https://shields.io) ![Apache Spark](https://shields.io) |
-| **Хранилища данных** | `DataLake` · `DataWarehouses` · `Statistica` |
-| **Интерфейс & BI** | ![PyQt](https://shields.io) `Almaz BI` |
-| **Визуализация** | `Matplotlib` · `Dash` · `Transcribe` |
+| **🟢 Язык разработки** | `Python 3.9+` |
+| **🔵 Big Data и анализ** | `Pandas` · `Apache Hadoop` · `Apache Spark` |
+| **🟤 Хранилища данных** | `DataLake` · `DataWarehouses` · `Statistica` |
+| **🟣 Интерфейс и BI** | `PyQt` · `Almaz BI` |
+| **🟡 Визуализация** | `Matplotlib` · `Dash` · `Transcribe` |
 
 ---
 
@@ -42,22 +36,21 @@
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'lineColor': '#F4F4F4', 'edgeLabelBackground':'#222' }}}%%
 graph LR
-    %% Row 1
-    A[1. Input] --> B[2. Markers] --> C[3. Parallel] --> D[4. SEO Gen] --> E[5. Sources]
+    %% Строка 1
+    A[1. Ввод] --> B[2. Маркеры] --> C[3. Параллель.] --> D[4. SEO Ген.] --> E[5. Источники]
     
-    %% Compact Connection
-    E --> F[6. Collect]
+    %% Компактный переход
+    E --> F[6. Сбор]
     
-    %% Row 2
-    F --> G[7. Engineer] --> H[8. Validate] --> I[9. Aggregate] --> J[10. Output]
+    %% Строка 2
+    F --> G[7. Инжиниринг] --> H[8. Валидация] --> I[9. Агрегация] --> J[10. Вывод]
 
-    %% High-contrast highlights
+    %% Контрастная подсветка блоков
     style A fill:#4a154b,stroke:#fff,stroke-width:2px,color:#fff
     style F fill:#0e4b50,stroke:#fff,stroke-width:2px,color:#fff
     style J fill:#1b4d3e,stroke:#fff,stroke-width:2px,color:#fff
     
     classDef default fill:#2d3748,stroke:#718096,stroke-width:1px,color:#e2e8f0;
-
 ```
 
 <details>
@@ -83,13 +76,13 @@ graph LR
 * **Python 3.9+**
 * Кластер **Hadoop / Spark** (для инференса Big Data)
 
-### Установка
+### Установка и запуск
 
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com
    ```
-2. Перейдите в директорию:
+2. Перейдите в папку проекта:
    ```bash
    cd your-repo
    ```
@@ -97,7 +90,7 @@ graph LR
    ```bash
    pip install -r requirements.txt
    ```
-4. Запустите главный модуль:
+4. Запустите систему:
    ```bash
    python main.py
    ```
@@ -107,4 +100,3 @@ graph LR
 ## 📝 Лицензия
 
 Проект распространяется под лицензией [MIT](LICENSE).
-
