@@ -1,4 +1,4 @@
-# 🌐 Information Search Optimization in Cyber-Physical Systems (Part 1)
+# 🌐 Information Search Optimization in Cyber-Physical Systems
 
 **[ 📑 License: MIT ]** · **[ ⭐ Stars: Repo Stars ]** · **[ 🐍 Python: 3.9+ ]** · **[ 🛠️ Status: Active ]**
 
