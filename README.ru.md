@@ -16,7 +16,7 @@
 Подход ориентирован на автоматизацию сбора и анализа данных о продукте на рынке без потери маркеров на всем протяжении дата-трека.
 
 <p align="center">
-  <img src="assets/data-analysis-in-marketing.webp" alt="DA" width="400">
+  <img src="assets/data.png" alt="DA" width="400">
 </p>
 
 ## ✨ Ключевые возможности (Features)
