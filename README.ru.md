@@ -3,9 +3,9 @@
 **[ 📑 Лицензия: MIT ]** · **[ ⭐ Звезды: Repo Stars ]** · **[ 🐍 Python: 3.9+ ]** · **[ 🛠️ Статус: Активен ]**
 
 ---
-<p align="center">
-  <img src="assets/images.jfif" alt="DDM" width="600">
-</p>
+<div align="center">
+  <img src="assets/glasses.png" alt="DDM" width="600">
+</div>
 
 [Читать на английском языке](README.md)
 
