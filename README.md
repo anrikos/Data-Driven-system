@@ -5,7 +5,6 @@
 <p align="center">
   <img src="assets/glasses.png" alt="DDM" width="600">
 </p>
-
 [Читать на русском языке](README.ru.md)
 
 ## 🎯 About the Project
