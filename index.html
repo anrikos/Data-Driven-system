@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Reducing information search operations to the I-equivalent
+        </title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Background Canvas for Particles -->
+        <canvas
+            id="particleCanvas"
+            style="
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                pointer-events: none;
+                opacity: 0.6;
+            "
+        ></canvas>
+
+        <!-- Reading Progress Bar -->
+        <div class="progress-bar" id="progressBar"></div>
+
+        <!-- Side Dot Navigation -->
+        <div class="dot-nav" id="dotNav">
+            <a href="#hero" class="dot active" data-target="hero"
+                ><span>Top</span></a
+            >
+            <a href="#problem" class="dot" data-target="problem"
+                ><span>01 / Problem</span></a
+            >
+            <a href="#model" class="dot" data-target="model"
+                ><span>02 / Model</span></a
+            >
+            <a href="#triplet" class="dot" data-target="triplet"
+                ><span>03 / Triplet</span></a
+            >
+            <a href="#application" class="dot" data-target="application"
+                ><span>04 / Application</span></a
+            >
+            <a href="#cycle" class="dot" data-target="cycle"
+                ><span>05 / Cycle</span></a
+            >
+            <a href="#conclusion" class="dot" data-target="conclusion"
+                ><span>06 / Conclusion</span></a
+            >
+        </div>
+
+        <header class="site-header">
+            <div class="brand">ANRI KOSTO<span> · RESEARCH</span></div>
+            <nav>
+                <a href="#problem">The Problem</a>
+                <a href="#model">The Model</a>
+                <a href="#triplet">The Triplet</a>
+                <a href="#application">Application</a>
+                <a href="#cycle">The Cycle</a>
+            </nav>
+            <div class="lang-switch">
+                <span class="active">EN</span> | <span>RU</span>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero" class="hero fade-in-element">
+                <div class="hero-copy">
+                    <div class="eyebrow">I-equivalent CPS</div>
+                    <h1>
+                        Reducing information search operations to the
+                        <em>I-equivalent</em>
+                    </h1>
+                    <p class="lead">
+                        An approach to optimizing information retrieval in
+                        cyber-physical systems operating with Big Data.
+                    </p>
+                    <div class="author">
+                        Anri Kosto · Research · January 2025
+                    </div>
+                    <a href="#problem" class="button"
+                        >Explore the approach <span class="arrow">↓</span></a
+                    >
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-placeholder-mesh"></div>
+                    <!-- Новая картинка вместо старого пульсирующего кружка -->
+                    <img
+                        src="hero-head.png"
+                        alt="AI Network Head"
+                        class="hero-head-img"
+                    />
+                </div>
+            </section>
+
+            <section id="problem" class="section fade-in-element">
+                <div class="section-heading">
+                    <div class="tag">01 / The problem</div>
+                    <h2>Big Data changes the search problem</h2>
+                    <p class="section-intro">
+                        Information volume is growing faster than organizations
+                        can evaluate it. The challenge is not only how much data
+                        exists, but whether heterogeneous data can be
+                        interpreted as one meaningful system.
+                    </p>
+                </div>
+                <div class="two-col">
+                    <div class="copy-card glass-card">
+                        <h3>Quantity</h3>
+                        <p>
+                            Large amounts of data require performance
+                            corresponding to the time of relevance.
+                        </p>
+                        <div class="stat">
+                            ≈ 40%
+                            <span class="stat-lbl"
+                                >annual growth of stored online data</span
+                            >
+                        </div>
+                    </div>
+                    <div class="copy-card glass-card">
+                        <h3>Quality</h3>
+                        <p>
+                            Heterogeneous syntax requires normalization to
+                            identify semantics. Decision maker, logical
+                            operations, Big Data and network are divided into
+                            quantity and quality problems.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="model" class="section dark-section fade-in-element">
+                <div class="section-heading">
+                    <div class="tag">02 / The model</div>
+                    <h2>
+                        Feedback turns uncertainty into a measurable process
+                    </h2>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-copy glass-card">
+                        <h3>Cyber-physical systems</h3>
+                        <p>
+                            Physical components, sensors and computing processes
+                            interact with their environment. Feedback signals
+                            the achieved result and adjusts the control action.
+                        </p>
+                    </div>
+                    <div class="feature-copy glass-card model-math-card">
+                        <h3>Metric equality</h3>
+                        <div class="formula">
+                            f<sub>m</sub>(m̃) = f*<sub>m</sub>(Y<sub>m</sub>)
+                        </div>
+                        <p>
+                            The target is coherence between the forward loop and
+                            the return loop. Removal of uncertainty and metric
+                            connectivity.
+                        </p>
+                    </div>
+                </div>
+                <div class="loop-grid">
+                    <div class="glass-card loop-item">
+                        <span class="loop-number">01</span>
+                        <h3>Forward loop</h3>
+                        <p>
+                            A decision maker's request is transformed through
+                            connected nodes, descriptors and sensors until
+                            uncertainty is removed.
+                        </p>
+                    </div>
+                    <div class="glass-card loop-item">
+                        <span class="loop-number">02</span>
+                        <h3>Return loop</h3>
+                        <p>
+                            A solution travels back through the connected nodes
+                            and returns to the decision maker as a response to
+                            the initial request.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="triplet" class="section fade-in-element">
+                <div class="section-heading">
+                    <div class="tag">03 / The triplet</div>
+                    <h2>
+                        Three logical operators make unstructured data
+                        comparable
+                    </h2>
+                    <p class="section-intro">
+                        Encoding and encapsulation transform a request across
+                        the network. Comparing the input request with the output
+                        response reduces the operation to an information
+                        equivalent: the I-equivalent.
+                    </p>
+                </div>
+                <div class="operator-row">
+                    <div class="glass-card">Disjunction <span>OR</span></div>
+                    <div class="glass-card">Conjunction <span>AND</span></div>
+                    <div class="glass-card">Inversion <span>NOT</span></div>
+                </div>
+            </section>
+
+            <section
+                id="application"
+                class="section application-section fade-in-element"
+            >
+                <div class="section-heading">
+                    <div class="tag">04 / Application</div>
+                    <h2>
+                        A marketing department becomes a distributed search
+                        system
+                    </h2>
+                    <p class="section-intro">
+                        The approach collects product information using analysis
+                        markers, converts requests across software applications
+                        and verifies the identity of collected markers along the
+                        data track.
+                    </p>
+                </div>
+                <div class="role-grid">
+                    <div class="glass-card role-item">
+                        <b>01</b><span>Analyst</span>
+                    </div>
+                    <div class="glass-card role-item">
+                        <b>02</b><span>Product marketer</span>
+                    </div>
+                    <div class="glass-card role-item">
+                        <b>03</b><span>PR specialist</span>
+                    </div>
+                    <div class="glass-card role-item">
+                        <b>04</b><span>Content marketer</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="cycle" class="section fade-in-element">
+                <div class="section-heading">
+                    <div class="tag">05 / The cycle</div>
+                    <h2>From a manager's task to a visual answer</h2>
+                </div>
+                <ul class="steps">
+                    <li class="glass-card">
+                        <b>1. Set the task</b
+                        ><span>Transcribe a verbal or graphical request.</span>
+                    </li>
+                    <li class="glass-card">
+                        <b>2. Identify markers</b
+                        ><span
+                            >Decompose the task into descriptors and semantic
+                            graphs.</span
+                        >
+                    </li>
+                    <li class="glass-card">
+                        <b>3. Parallelize search</b
+                        ><span
+                            >Send descriptor queries across distributed
+                            nodes.</span
+                        >
+                    </li>
+                    <li class="glass-card">
+                        <b>4. Filter and compare</b
+                        ><span
+                            >Match received data against the original semantic
+                            graph.</span
+                        >
+                    </li>
+                    <li class="glass-card">
+                        <b>5. Return the answer</b
+                        ><span
+                            >Combine the result into text and visualization for
+                            the decision maker.</span
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <section id="faq" class="section fade-in-element">
+                <div class="section-heading">
+                    <div class="tag">FAQ</div>
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-item glass-card">
+                        <div class="faq-question">
+                            What is an I-equivalent in simple terms?
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                It is a compressed mathematical representation
+                                of data that makes completely different,
+                                unstructured information sources easily
+                                comparable by bringing them to a single coherent
+                                metric format.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-card">
+                        <div class="faq-question">
+                            How does annual growth of Big Data affect business
+                            search efficiency? <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                With data volume growing at roughly 40% per
+                                year, traditional brute-force index searches
+                                fail to verify quality or relevance in
+                                real-time, resulting in uncalculated operational
+                                risk indicators.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-card">
+                        <div class="faq-question">
+                            What is the purpose of the forward and return loops?
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                The forward loop strips analytical uncertainty
+                                from the initial request by scaling down
+                                descriptors. The return loop feeds structured
+                                analytical telemetry back into the manager's
+                                metrics framework.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="conclusion" class="section conclusion fade-in-element">
+                <h2>
+                    Information retrieval becomes a feedback-driven I-equivalent
+                    process
+                </h2>
+                <p class="section-intro">
+                    The approach makes it possible to design business
+                    technologies with specific software and hardware solutions
+                    that optimize data collection, processing and analysis.
+                </p>
+                <div class="closing-line">
+                    FEEDBACK · TRIPLET CODING · METRIC COHERENCE
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div>© 2025 Anri Kosto · Scientific Research</div>
+            <!-- Обновленная кнопка на английском языке -->
+            <div>
+                <a href="article.pdf" target="_blank" class="pdf-link">
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        style="vertical-align: middle"
+                    >
+                        <path
+                            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                        ></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                    Read Full Article (PDF)
+                </a>
+            </div>
+        </footer>
+
+        <!-- Frontend Interactive Script -->
+        <script>
+            // Reading Progress Bar
+            window.addEventListener('scroll', () => {
+                const winScroll = document.documentElement.scrollTop;
+                const height =
+                    document.documentElement.scrollHeight -
+                    document.documentElement.clientHeight;
+                const scrolled = (winScroll / height) * 100;
+                document.getElementById('progressBar').style.width =
+                    scrolled + '%';
+
+                // Highlight Side Dots on Scroll
+                const sections = document.querySelectorAll('section');
+                const dots = document.querySelectorAll('.dot');
+                let current = '';
+
+                sections.forEach((section) => {
+                    const sectionTop = section.offsetTop;
+                    if (pageYOffset >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                dots.forEach((dot) => {
+                    dot.classList.remove('active');
+                    if (dot.getAttribute('data-target') === current) {
+                        dot.classList.add('active');
+                    }
+                });
+            });
+
+            // FAQ Interactive Accordion
+            document.querySelectorAll('.faq-question').forEach((item) => {
+                item.addEventListener('click', (event) => {
+                    const parent = item.parentElement;
+                    parent.classList.toggle('open');
+                    const icon = item.querySelector('.faq-icon');
+                    icon.textContent = parent.classList.contains('open')
+                        ? '−'
+                        : '+';
+                });
+            });
+
+            // Interactive Background Mesh Particles
+            const canvas = document.getElementById('particleCanvas');
+            const ctx = canvas.getContext('2d');
+            let particles = [];
+
+            function resize() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            window.addEventListener('resize', resize);
+            resize();
+
+            class Particle {
+                constructor() {
+                    this.x = Math.random() * canvas.width;
+                    this.y = Math.random() * canvas.height;
+                    this.vx = (Math.random() - 0.5) * 0.4;
+                    this.vy = (Math.random() - 0.5) * 0.4;
+                    this.radius = Math.random() * 1.5 + 0.5;
+                }
+                update() {
+                    this.x += this.vx;
+                    this.y += this.vy;
+                    if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+                    if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+                }
+                draw() {
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                    ctx.fillStyle = 'rgba(124, 220, 255, 0.3)';
+                    ctx.fill();
+                }
+            }
+
+            for (let i = 0; i < 60; i++) particles.push(new Particle());
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                particles.forEach((p) => {
+                    p.update();
+                    p.draw();
+                });
+                // Draw connections
+                ctx.strokeStyle = 'rgba(78, 143, 255, 0.04)';
+                ctx.lineWidth = 0.5;
+                for (let i = 0; i < particles.length; i++) {
+                    for (let j = i + 1; j < particles.length; j++) {
+                        const dist = Math.hypot(
+                            particles[i].x - particles[j].x,
+                            particles[i].y - particles[j].y,
+                        );
+                        if (dist < 120) {
+                            ctx.beginPath();
+                            ctx.moveTo(particles[i].x, particles[i].y);
+                            ctx.lineTo(particles[j].x, particles[j].y);
+                            ctx.stroke();
+                        }
+                    }
+                }
+                requestAnimationFrame(animate);
+            }
+            animate();
+
+            // Simple Fade-in Observer on Scroll
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                        }
+                    });
+                },
+                { threshold: 0.1 },
+            );
+
+            document
+                .querySelectorAll('.fade-in-element')
+                .forEach((el) => observer.observe(el));
+        </script>
+    </body>
+</html>
