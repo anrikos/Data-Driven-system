@@ -114,11 +114,16 @@ This project is licensed under the [MIT License](LICENSE)
 ## 📂 Materials
 ---
 
----
+------
 
 ## Live Demo
 
-[![Visit Project Website](hero-head.png)(https://anrikos.github.io/Data-driven-system/)
+<p align="left">
+  <a href="https://anrikos.github.io/Data-driven-system">
+    <img src="hero-head.png" alt="Website Icon" height="24" style="vertical-align: middle; margin-right: 8px;">
+  </a>
+  <strong><a href="https://anrikos.github.io/Data-driven-system">Anri Kosto - Interactive Presentation</a></strong>
+</p>
 
 *Click the image above to view the interactive presentation of the research.*
 
