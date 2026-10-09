@@ -14,7 +14,7 @@
 The framework focuses on automating market-wide product data collection and analysis while ensuring seamless marker preservation across the entire data track.
 
 <p align="center">
-  <img src="assets/workstation.png" alt="DA" width="400">
+  <img src="assets/images.jfif" alt="DA" width="400">
 </p>
 
 ## ✨ Features
