@@ -113,16 +113,10 @@ This project is licensed under the [MIT License](LICENSE)
 
 ## 📂 Materials
 
-## Live Demo
+---
 
-<p align="left">
-  <a href="https://anrikos.github.io/Data-driven-system">
-    <img src="hero-head.png" alt="Website Icon" height="55" style="vertical-align: middle; margin-right: 8px;">
-  </a>
-  <strong><a href="https://anrikos.github.io/Data-driven-system">Anri Kosto - Interactive Presentation</a></strong>
-</p>
-
-*Click the image above to view the interactive presentation of the research.*
-
+## Live Presentation
+You can explore the interactive presentation of this research here:  
+🔗 **[Anri Kosto - CPS Information Search Optimization](https://anrikos.github.io/Data-driven-system/)**
 
 * 📄 [Download Full REDUCING_THE_OPERATION_TO_I_EQUIVALENT (PDF)](assets/REDUCING_THE_OPERATION_TO_I_EQUIVALENT.pdf?raw=true)
